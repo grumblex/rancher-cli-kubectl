@@ -13,6 +13,6 @@ WORKDIR /mnt
 ENTRYPOINT ["rancher"]
 CMD  ["--help"]
 
-COPY --from=k8scli /usr/local/bin/kubectl /usr/local/bin
+#COPY --from=k8scli /usr/local/bin/kubectl /usr/local/bin
 
 ENTRYPOINT []
